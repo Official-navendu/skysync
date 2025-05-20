@@ -1,0 +1,96 @@
+# SkySync Website - Project Documentation
+
+## 🌐 Testing URL
+
+**Project Link:** [https://skysync-zeta.vercel.app/](https://skysync-zeta.vercel.app/)
+
+> **Note:** This is a testing deployment. Final production deployment will be done post client approval.
+
+---
+
+## 📚 Project Overview
+
+**Project Name:** SkySync Website
+**Purpose:** Static website developed for showcasing company information and services with clean design, responsive layout, and fast performance.
+**Technology Stack:**
+
+* HTML5
+* CSS3 (Custom Styling)
+* JavaScript (vanilla)
+* Deployed on Vercel (static hosting)
+
+---
+
+## 🗂️ Folder Structure
+
+```
+SkySync/
+├── index.html              # Main homepage
+├── contact.html            # Contact page
+├── about.html              # About us (if included)
+├── css/
+│   └── styles.css          # All custom styles
+├── js/
+│   └── scripts.js          # Page interactivity
+├── images/                 # All site images and assets
+├── robots.txt              # SEO crawling instructions
+├── sitemap.xml             # SEO page map (to be added for production)
+└── vercel.json             # Vercel configuration
+```
+
+---
+
+## 🚀 Deployment Details
+
+**Hosting Platform:** [Vercel](https://vercel.com/)
+**Framework:** None (Static Site)
+**Deployment Type:** Manual upload via Vercel dashboard or Git integration
+**Clean URLs:** Yes (no `.html` in browser URL)
+
+### Important Files:
+
+* `vercel.json`: Configuration for redirects, headers, rewrites
+* `robots.txt`: Allows all search engines to crawl
+* `sitemap.xml`: (Optional, to be added for production)
+
+---
+
+## 📊 SEO Configuration
+
+**robots.txt**
+
+```txt
+User-agent: *
+Allow: /
+
+Sitemap: https://skysync-zeta.vercel.app/sitemap.xml
+```
+
+**Meta Tags (index.html):**
+
+* `<title>` and `<meta description>` implemented
+* OpenGraph tags and favicon support recommended for production
+
+---
+
+## 🔧 Features Implemented
+
+* Clean, responsive layout
+* Optimized for desktop and mobile
+* Interactive UI elements
+* Fast loading speed with minimal dependencies
+* Header with navigation and footer
+
+---
+
+## ✅ Testing Checklist
+
+| Feature               | Status       |
+| --------------------- | ------------ |
+| Page Load Speed       | ✅            |
+| Mobile Responsiveness | ✅            |
+| Desktop Compatibility | ✅            |
+| Navigation            | ✅            |
+| Contact Form          | ✅            |
+| SEO Basic Setup       | ✅            |
+| Custom 404 Page       | ⬜ (Optional) |
